@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: darksalmon;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+}
+.name{
+  display: inline-block;
+  color: white;
+  font-size: 40px; 
+  font-family: 'Righteous', serif;
+  text-shadow: .03em .03em 0 hsla(230,40%,50%,1);
+  text-align: center;
+}
+.enter{
+    font-size: 18px;
+    font-family: 'Righteous', serif;
+}
+.input{
+    width: 93%;
+    height: 30px;
+    padding: 12px;
+    font-size: 24px;
+}
+.main-btn{
+    text-align: center;
+    padding-top: 24px;
+}
+.btn{
+    padding: 12px 16px;
+    background-color: #2196f3;;
+    border-color: #444;
+    border-radius: 15px;
+    color: #fff;
+    font-family: 'Righteous', serif;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition: 0.5s;
+}
+.result{
+    padding: 12px;
+    margin-top: 12px;
+    width: 93%;
+    height: 50px;
+    background-color: aquamarine;
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+    border-style: dashed;
+    border-radius: 10px;
+}
+.item{
+    margin-top: 16px;
+    text-align: center;
+}
+.item-link{
+    color: hsla(230,40%,50%,1);
+    padding: 8px;
+}
+.item-link:hover{
+    color: #2196f3;
+    transition: 0.5s;
+}
+.icon{
+    font-size: 24px;
+}
